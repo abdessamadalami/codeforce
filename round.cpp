@@ -9,21 +9,22 @@ int main()
 {
     int a;
     int nbr,t,base,size  , j;
-    cin >> a;
-    cin >> nbr;
     t = 0;
-    int array[a];
-    for (size_t i = 0; i < a; i++)
+    int array[4];
+    nbr = 0;
+    for (size_t i = 0; i < 4; i++)
     {
         cin >> array[i];
-        // if (array[i] >= nbr)
-        //     t++;
+        if (array[i] > nbr)
+        {
+            nbr = array[i];
+            j = i;
+        }
     }
-    if (array[nbr - 1] > nbr)
+    for (int i = 0; i < 4; i++)
     {
-        cout << nbr;
+        if (i != j)
+            cout << nbr - array[i] << " " ;        
     }
-    else
-     cout << 0 << endl;
-    // cout << t << endl;
+
 }

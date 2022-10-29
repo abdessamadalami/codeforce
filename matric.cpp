@@ -12,10 +12,9 @@ int main()
             {
                 l = i;
                 c = j;
+                printf("\n%d\n",abs(2 - l)+ abs(2-c));
                 break;
             }
         }
     }
-    cout << l << endl;
-    cout << c << endl;
 }
