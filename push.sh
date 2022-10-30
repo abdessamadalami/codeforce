@@ -18,6 +18,8 @@ then
         exit;
     fi
 elif [[ $answer == "push" ]];
+     then
+        git push
 then
     git pull
 fi
