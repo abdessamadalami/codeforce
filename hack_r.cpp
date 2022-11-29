@@ -5,20 +5,33 @@
 #include <algorithm>
 using namespace std;
 
-
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
-    int a,b,t, steps,half;
-    cin >> t;
+    int a,b,t,c ,N;
+    cin >> N;
     vector<int> vec;
-    for (size_t i = 0; i < t; i++)
+    for (size_t i = 0; i < N; i++)
     {
-        cin >> a;
-        vec.push_back(a);
+       cin >> a;
+       
+
+        
+        
+        cout << k << " " << k1 << endl;
     }
-    sort(vec.begin(),vec.end());
-    for (size_t i = 0; i < t; i++) {
-        cout << vec[i] << " ";
-    }
+    // for (int i = 0; i < N; i++)
+    // {
+    //     cout << vec[i] << endl;
+    // }
+    
     return 0;
 }
+// 5
+// 4
+// 2
+// 2
+// 12
+// 10
+// 6
+// 3
+// 8

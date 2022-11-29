@@ -21,10 +21,11 @@ int main()
             j = i;
         }
     }
+    
     for (int i = 0; i < 4; i++)
     {
         if (i != j)
-            cout << nbr - array[i] << " " ;        
+            cout << nbr - array[i] << " " ;
+        cout << endl;    
     }
-
 }
