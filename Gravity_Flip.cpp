@@ -5,19 +5,21 @@
 
 using namespace std;
 
+
 int main()
 {
-    int a;
-    int nbr,t,base,size  , j;
-    vector<int> gravity;
-    cin >> t;
-    nbr = 0;
-    for (size_t i = 0; i < t; i++)
+    string n;
+    char c;
+    cin >> n;
+    string j = "hello";
+    int m = 0;
+    for (size_t i = 0; i < n.length(); i++)
     {
-        cin >> j;
-        gravity.push_back(j);
+        if (j[m] == n[i])
+            m++; 
     }
-    sort(gravity.begin(), gravity.end());
-    for(int x : gravity)
-        std::cout<<x<<" ";
+    if(m == j.length() )
+        cout << "YES\n";
+    else
+        cout << "NO\n";
 }

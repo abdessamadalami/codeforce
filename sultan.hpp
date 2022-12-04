@@ -5,6 +5,8 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+#define loop(vec,n) for(int index = 0; index < n; ++index) {cout <<" "<< vec[index] << endl;}
+#define input(vec,n) for(int index = 0; index < n; ++index) { cin >> vec[index];}
 
 
 
